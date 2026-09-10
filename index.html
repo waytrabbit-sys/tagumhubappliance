@@ -697,38 +697,47 @@
   </footer>
 
   <!-- ============================= FLOATING ACTION BUTTONS ============================= -->
-  <div class="fab-stack">
-    <div class="fab-menu">
-      <a class="fab-item" href="mailto:[EMAIL ADDRESS]">
-        <span class="fab-ico">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
-        </span>
-        Email
-      </a>
-      <a class="fab-item" href="https://www.facebook.com/profile.php?id=61564917083173"
- target="_blank" rel="noopener">
-        <span class="fab-ico">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-        </span>
-        Facebook
-      </a>
-      <a class="fab-item" href="https://m.me/61564917083173" target="_blank" rel="noopener" aria-label="Messenger">
-        <span class="fab-ico">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.15 2 11.25c0 2.9 1.44 5.49 3.7 7.19V22l3.38-1.86c.9.25 1.87.38 2.92.38 5.52 0 10-4.15 10-9.27C22 6.15 17.52 2 12 2z"/><path d="m7 13.5 3.2-3.4 2.6 2 3.2-3.6-3.2 3.4-2.6-2z"/></svg>
-        </span>
-        Messenger
-      </a>
-      <a class="fab-item" href="tel:[PHONE NUMBER]">
-        <span class="fab-ico">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        </span>
-        Call Store
-      </a>
-    </div>
-    <button class="fab-toggle" aria-label="Contact options" aria-expanded="false">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
-    </button>
+ <div class="fab-stack">
+  <div class="fab-menu">
+
+    <!-- Email -->
+    <a class="fab-item" href="mailto:ra.tagum@robinsonsappliances.com.ph">
+      <span class="fab-icon">✉</span>
+      Email
+    </a>
+
+    <!-- Facebook -->
+    <a class="fab-item"
+       href="https://www.facebook.com/profile.php?id=61564917083173"
+       target="_blank"
+       rel="noopener">
+      <span class="fab-icon">f</span>
+      Facebook
+    </a>
+
+    <!-- Messenger -->
+    <a class="fab-item"
+       href="https://m.me/61564917083173"
+       target="_blank"
+       rel="noopener">
+      <span class="fab-icon">💬</span>
+      Messenger
+    </a>
+
+    <!-- Call -->
+    <a class="fab-item fab-call" href="tel:09538723222">
+      <span class="fab-icon">☎</span>
+      Call
+    </a>
+
   </div>
+
+  <button class="fab-toggle"
+          aria-label="Contact options"
+          aria-expanded="false">
+    +
+  </button>
+</div>
 
   <!-- ============================= BACK TO TOP ============================= -->
   <button class="back-to-top" aria-label="Back to top">
