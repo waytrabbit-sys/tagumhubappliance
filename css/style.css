@@ -1744,3 +1744,28 @@ font-size:24px;
   color:#fff;
   border-color:#e31e24;
 }
+/* ===== MOBILE RESPONSIVE NAVBAR ===== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav-list li a {
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
